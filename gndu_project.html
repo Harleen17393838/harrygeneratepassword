@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Harry-Generate Password</title>
+    <link rel="stylesheet" href="gndu_project.css">
+    <link rel="icon" href="tab_logo.jpg" type="text/css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+</head>
+
+<body>
+    <br>
+    <h1>Harry-Generate Password</h1>
+    <main>
+        <section class="p-5">
+            <h2 class="text-center">Confused ? Generate Randomly</h2>
+            <button type="button"  class="btn btn-outline-dark" onclick="Generate()"><b>Generate Password</b></button>
+        
+            <div id="result"></div>
+            <br>
+            <i class="material-icons" style="font-size:36px" onclick="copyText()">content_copy</i>
+        
+        </section>
+        <section class="p-3">
+            <h2>Check your Password Strength</h2>
+            <input type="password" id="password" placeholder="enter your password here">
+            <br>
+            
+            <button type="button" class="btn btn-outline-dark" onclick="StrengthChecker()"><b>Strength check !</b></button>
+            <br>
+            <ul>
+                <li id="Uppercase"><b>Atleast one Uppercase A-Z</b></li>
+                <li id="Lowercase"> <b>Atleast one Lowercase a-z</b></li>
+                <li id="Number"><b>Atleast one Number 0-9 </b></li>
+                <li id="SpecialCharacter"><b>Atleast one Special Character $ @ % etc.</b></li>
+                <li id="Length"><b>Password must  have minimum 8 characters                </b></li>
+            </ul>
+        </section>
+
+    </main>
+    <script src="gndu_project.js" ></script>
+</body>
+
+</html>

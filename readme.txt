@@ -1,0 +1,5 @@
+Hi developers,
+me being a student of gndu university in Ist year of Btech- Enc made this project.This is a password generation project wherein you can randomly create passwords and even check your password that whether they match the criteria or not. I have used html css and javascript files and a logo to be shown on the tab.
+html is used to make the structure of your page in two parts namely head and body meanwhile css is used to give a better user interface and stytling to our webpage while javascript as the name suggests script. It is a script wherein you can define up your limitations of password with the help of validation condtions of Password, wherein i bit used that if the password meets the criteria then text color changes to green as a confirmtion but if it doesnt go that way then it presents a red color as an error indication.
+Validations for Upper case, Lower case, Numbers and Special characters are checked here.
+thankyou, happy coding
